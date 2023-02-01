@@ -14,7 +14,7 @@ std::compressed_str = compress(text);
 ```cpp
 // Declaration: std::string decompress(std::string in);
 std::string compressed_str;
-std::original_str = compress(compressed_str);
+std::original_str = decompress(compressed_str);
 ```
 
 

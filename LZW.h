@@ -1,7 +1,9 @@
 #ifndef LZW_H
 #define LZW_H
 
-std::string compress();
-std::string decompress();
+#include <string>
+
+std::string compress(std::string&);
+std::string decompress(std::string&);
 
 #endif
